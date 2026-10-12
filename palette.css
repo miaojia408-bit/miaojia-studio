@@ -1,0 +1,43 @@
+/* User's palette: light yellow / light azure / dark gray brown.
+   Artwork, photographs and document images retain their original colors. */
+:root{--cream:#fef0b6;--ink:#472f26;--blue:#bbd3e0;--pink:#d8b6a1;--green:#9eaf9c;--orange:#d4b477;--line:2px solid var(--ink)}
+body{background:#fef0b6;color:var(--ink)}
+.studio{background:radial-gradient(ellipse at 70% 25%,#fff8db,#fef0b6 75%,#eedda9)}
+.studio:before{opacity:.35}
+.logo{color:#472f26}.logo i{background:linear-gradient(transparent 70%,#bbd3e0 70%);padding:0 5px 2px}
+header,footer{color:#472f26}
+.cartoon-room-mode .wall{background:linear-gradient(110deg,#fff6d2,#fef0b6 75%,#e9dba8);border-color:#725c4c;box-shadow:inset -18px 0 25px #472f2609}
+.cartoon-room-mode .side-plane{background:#e5d4a1;border-color:#725c4c}
+.cartoon-room-mode .desk{background:repeating-linear-gradient(174deg,transparent 0 42px,#472f2609 43px 44px),linear-gradient(160deg,#d7e5e9,#bbd3e0);border-color:#665047;box-shadow:0 18px 28px #472f2624}
+.cartoon-room-mode .desk:after{border-color:#665047}
+.cartoon-room-mode .desk:before{background:#95afbc;border-color:#665047;box-shadow:0 8px 12px #472f2620}
+.cartoon-room-mode .desk-leg{background:#a6bec8;border-color:#665047}
+.cartoon-room-mode .sky{background:#bbd3e0}.cartoon-room-mode .sun{background:#fef0b6}
+.cartoon-room-mode .tree{background:#aab8a1}.cartoon-room-mode .tree-b{background:#8fa699}
+.cartoon-room-mode .window,.cartoon-room-mode .window:before{border-color:#725c4c;background-color:#fff5ce}
+.cartoon-room-mode .blinds span{background:linear-gradient(#fff9e6,#fef0b6 54%,#dacb9c 58%,#fff5d0);border-color:#89745e;box-shadow:0 4px 6px #472f2619}
+.pull:after{background:linear-gradient(130deg,#fff5d0,#fef0b6);box-shadow:2px 4px 0 #472f2620}
+.cartoon-room-mode .shade,.cartoon-room-mode .base{background:#fef0b6}
+.cartoon-room-mode .glass{background:#bbd3e099}
+.cartoon-room-mode .t1{background:#d8b6a1}.cartoon-room-mode .t2{background:#fef0b6}
+.cartoon-room-mode .shelf{background:#cbb58e;border-color:#665047}
+.cartoon-room-mode .book{background:#bbd3e0}.cartoon-room-mode .book:nth-child(2){background:#fef0b6}.cartoon-room-mode .book:nth-child(3){background:#aebdad}
+.cartoon-room-mode .laptop .screen{background:#59433a;border-color:#472f26}
+.cartoon-room-mode .keyboard{background:repeating-linear-gradient(90deg,transparent 0 15px,#472f2622 16px 17px),repeating-linear-gradient(0deg,#dbd7c8 0 9px,#472f2622 10px 11px);border-color:#472f26}
+.cartoon-room-mode .layer-wandian-note .note{background:#59433a;border-color:#472f26;box-shadow:2px 3px 0 #937e70,4px 7px 10px #472f2630}
+.desk-box-front{background:linear-gradient(140deg,#d5e4eb,#bbd3e0);border-color:#665047;box-shadow:inset 0 4px 0 #e8f0ef,0 5px 0 #91aab6;color:#472f26}
+.desk-box-lid{background:#d6e4e8;border-color:#665047;color:#665047}
+.desk-box-side{background:#98b2be;border-color:#665047}
+.cartoon-room-mode .wall-id{background:linear-gradient(110deg,#bbd3e0 28%,#fff7d8 28%,#fef0b6);color:#472f26;border-color:#897767;box-shadow:1px 2px 0 #c3bba3,3px 6px 8px #472f2622,inset 0 0 0 3px #fffaf055}
+.wall-id:before{border-color:#786659;background:linear-gradient(110deg,#e0ebed,#bbd3e0)}.wall-id:after{background:#786659}
+.wall-id small,.wall-id i{color:#705e50}
+.cartoon-room-mode .paper.report,.cartoon-room-mode .scraps.one{background:#fff9e8;color:#472f26;border-color:#c9bda3}
+.paper.report strong,.paper.report .manuscript-intro{color:#59473a}
+.about-dialog,.reports-dialog{background:#fff8df;color:#472f26;border-color:#897767}
+.profile-top,.profile-bottom,.profile-works{border-color:#b7a787}.profile-card h2,.id-works-row button{color:#472f26}.id-works-row button:hover{color:#7a614e;border-color:#7a614e}
+.profile-info p,.id-works-row>span{color:#705e50}
+.profile-bottom i{background:repeating-linear-gradient(90deg,#472f26 0 2px,transparent 2px 4px,#472f26 4px 5px,transparent 5px 8px)}
+.report-entry,.reports-list{border-color:#d3c6a8}.report-entry-number,.report-entry-byline,.report-entry-meta,.reports-dialog .reports-kicker{color:#7d6956}
+.night .cartoon-room-mode .sky{background:#536676}
+.night .cartoon-room-mode .wall{background:linear-gradient(110deg,#e9ddbc,#d3c8ab)}
+.night .cartoon-room-mode .desk{background:linear-gradient(160deg,#b0c2c9,#91aab7)}

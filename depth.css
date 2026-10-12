@@ -1,0 +1,28 @@
+/* Illustrated depth: solid planes, recessed window, grounded objects. */
+.cartoon-room-mode .wall{border-width:1px;box-shadow:inset -28px 0 0 #472f260b,inset 0 -28px 35px #472f260c}
+.cartoon-room-mode .side-plane{display:block;right:1%;top:0;bottom:24%;width:3.8%;clip-path:polygon(0 0,100% 4%,100% 100%,0 96%);background:#e3d4a6;border:0;border-left:1px solid #472f2633;z-index:1}
+.cartoon-room-mode .window{box-shadow:0 0 0 7px #fff4cb,0 0 0 9px #897767,-9px 11px 0 9px #472f2614;isolation:isolate}
+.cartoon-room-mode .sky{inset:5px;box-shadow:inset 10px 9px 0 #472f2626,inset -4px -4px 0 #ffffff33}
+.cartoon-room-mode .window:before{background:#fff4cb;box-shadow:-5px 0 0 #472f261c;width:7px}
+.cartoon-room-mode .window:after{bottom:-23px;left:-19px;right:-18px;height:16px;background:linear-gradient(#fff6d8 0 48%,#cab991 49%);border:1.5px solid #786352;transform:skewX(-22deg);box-shadow:-9px 10px 0 #472f2617;z-index:5}
+.cartoon-room-mode .blinds{box-shadow:inset 0 7px 0 #472f2622}
+.cartoon-room-mode .desk{background:repeating-linear-gradient(174deg,transparent 0 42px,#472f2608 43px 44px),linear-gradient(175deg,#a9c1cf 0%,#bbd3e0 25%,#d5e5eb 100%);border-top:3px solid #766655;box-shadow:0 28px 0 #607984,0 45px 30px #472f2628}
+.cartoon-room-mode .desk:before{bottom:-23px;height:24px;background:linear-gradient(#93acb9 0 65%,#7e98a5 66%);border-color:#78695c;box-shadow:0 7px 0 #472f2628}
+.cartoon-room-mode .desk-leg{background:linear-gradient(90deg,#6e8793 0 27%,#a9c0cb 28%);border-color:#78695c;box-shadow:-10px 8px 0 #472f261c}
+.cartoon-room-mode .laptop{filter:drop-shadow(-9px 12px 3px #472f2630)}
+.cartoon-room-mode .laptop .screen{box-shadow:3px 2px 0 #938074,5px 4px 0 #472f26,inset 0 0 0 1px #bbd3e044}
+.cartoon-room-mode .keyboard{box-shadow:0 5px 0 #85766b,0 7px 0 #472f2640;background-color:#d6d6c8}
+.cartoon-room-mode .laptop:hover{filter:drop-shadow(-10px 15px 4px #472f2630)}
+.cartoon-room-mode .shelf{background:linear-gradient(90deg,#aa9477 0 10%,#c8b794 11%);box-shadow:7px 5px 0 #938169,-10px 12px 0 #472f261c,inset 0 8px 0 #472f2622}
+.cartoon-room-mode .shelf:before{height:7px;background:#e0cda8;box-shadow:0 7px 0 #472f2620}
+.cartoon-room-mode .shelf:after{background:#a18d72;border-color:#78695c}
+.cartoon-room-mode .desk-cover-box{filter:drop-shadow(-9px 11px 3px #472f2626)}
+.desk-box-lid{box-shadow:inset 0 0 0 5px #d8e5e8,3px 4px 0 #78929f}
+.desk-box-front{box-shadow:inset 0 4px 0 #eaf2ef,0 5px 0 #819ba8}
+.cartoon-room-mode .layer-wandian-note .note{box-shadow:2px 4px 0 #99877a,3px 6px 0 #472f26,-8px 12px 5px #472f262b}
+.cartoon-room-mode .paper.report{box-shadow:1px 2px 0 #eee6cf,2px 4px 0 #c9bea6,-7px 11px 5px #472f2626}
+.cartoon-room-mode .flowers{filter:drop-shadow(-7px 8px 3px #472f2625)}
+.cartoon-room-mode .lamp{filter:drop-shadow(-7px 9px 3px #472f2628)}
+.cartoon-room-mode .poster{box-shadow:-3px 5px 3px #472f2624}
+.cartoon-room-mode .wall-id{box-shadow:1px 2px 0 #c3bba3,-4px 6px 3px #472f2620,inset 0 0 0 3px #fffaf055}
+.night .cartoon-room-mode .desk{background:linear-gradient(175deg,#8099a8,#a9c1cc)}

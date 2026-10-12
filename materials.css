@@ -1,0 +1,19 @@
+/* Material cues belong to the objects, never to the original artwork. */
+.desk-box-front{background:radial-gradient(#472f2610 .55px,transparent .8px) 0 0/4px 5px,linear-gradient(120deg,#d6e5eb,#bbd3e0);border-width:1.5px;box-shadow:inset 0 4px 0 #edf3e9,inset 3px 0 0 #ffffff33,inset -4px 0 0 #472f260c,0 5px 0 #819ba8}
+.desk-box-front:before{content:"";position:absolute;inset:8px 9px;border:1px solid #472f261b;border-top:0;border-bottom:0;pointer-events:none}
+.desk-box-front:after{content:"";position:absolute;top:0;left:42%;width:18%;height:7px;background:#728c98;border-radius:0 0 12px 12px;box-shadow:0 1px 0 #fef0b680;pointer-events:none}
+.desk-box-lid{background:radial-gradient(#472f2610 .55px,transparent .8px) 0 0/4px 5px,#d6e4e8;box-shadow:inset 0 0 0 4px #e7efea,inset 0 -8px 0 #aec6d0,3px 4px 0 #78929f}
+.desk-box-interior{background:linear-gradient(#607985,#8aa4af);box-shadow:inset 0 9px 10px #472f2633}
+.desk-box-side{background:linear-gradient(90deg,#7f99a6,#a7c0cd);box-shadow:inset 3px 0 0 #d4e2e2}
+.desk-cover-slip{border-color:#766555;box-shadow:1px 1px 0 #fff9e9,2px 2px 0 #b5a98e,3px 4px 4px #472f2628}
+.cartoon-room-mode .laptop .screen{position:relative;background:linear-gradient(125deg,#75675b,#49362d 40%,#5c493e);border-color:#49362d;box-shadow:inset 0 1px 0 #e9e4d28c,3px 2px 0 #a99e8d,5px 4px 0 #59483d}
+.cartoon-room-mode .laptop .screen:before{content:"";position:absolute;top:1px;left:49.5%;width:3px;height:3px;background:#bbd3e0;border-radius:50%;pointer-events:none}
+.cartoon-room-mode .keyboard{position:relative;background:repeating-linear-gradient(90deg,transparent 0 15px,#472f2630 16px 17px),repeating-linear-gradient(0deg,#d9ddd5 0 9px,#6d71632b 10px 11px);box-shadow:inset 0 2px 0 #fff9e6,0 4px 0 #9e9e92,0 6px 0 #66594b}
+.cartoon-room-mode .keyboard:after{content:"";position:absolute;left:39%;bottom:2px;width:22%;height:12px;background:#d8ddd3;border:1px solid #868a7b;border-radius:2px;box-shadow:inset 0 1px 0 #fff9e7;pointer-events:none}
+.cartoon-room-mode .layer-wandian-note .note{background:linear-gradient(135deg,#7f7365,#49372e 28%,#5d4b41);box-shadow:inset 0 1px 0 #fff5d27a,2px 4px 0 #a69986,3px 6px 0 #59483c,-8px 12px 5px #472f262b}
+.cartoon-room-mode .glass{z-index:3;border:1.5px solid #6c858380;background:linear-gradient(90deg,transparent 0 9%,#fffdf4b3 10% 15%,transparent 17% 75%,#fffdf470 78% 82%,transparent 85%),linear-gradient(0deg,#8ebacb70 0 48%,#bbd3e02b 49% 100%);border-radius:5px 5px 15px 15px;box-shadow:inset 0 -5px 0 #cde5e585,inset -4px 0 0 #eff7ea44,1px 3px 0 #472f2619}
+.cartoon-room-mode .glass:before{content:"";position:absolute;left:-1px;right:-1px;top:-4px;height:7px;border:1px solid #71888499;border-radius:50%;background:#fef9e033;box-shadow:0 1px 0 #fffbe9;pointer-events:none}
+.cartoon-room-mode .glass:after{content:"";position:absolute;left:2px;right:2px;bottom:44%;height:5px;border:1px solid #8badb67a;border-radius:50%;background:#d6edf055;pointer-events:none}
+.cartoon-room-mode .paper.report,.cartoon-room-mode .scraps.one{background-image:radial-gradient(#472f2610 .45px,transparent .7px);background-size:4px 5px}
+.cartoon-room-mode .poster:before{background:#e5dcc6;border-color:#8f8069;box-shadow:-1px 2px 2px #472f2619}
+.cartoon-room-mode .wall-id{background-image:radial-gradient(#472f260b .45px,transparent .7px),linear-gradient(110deg,#bbd3e0 28%,#fff7d8 28%,#fef0b6);background-size:4px 5px,100% 100%}

@@ -1,0 +1,18 @@
+/* Desktop-first composition: this portfolio is designed as a horizontal studio. */
+html{min-width:1080px;min-height:680px;overflow:hidden}
+body{min-width:1080px;min-height:680px;overflow:hidden}
+.studio{min-width:1080px;min-height:680px;height:100vh}
+header{top:clamp(22px,3.2vh,36px);left:clamp(36px,4vw,72px);right:clamp(36px,4vw,72px)}
+footer{left:clamp(36px,4vw,72px);right:clamp(36px,4vw,72px);bottom:clamp(14px,2.4vh,25px)}
+.cartoon-room-mode{width:min(1440px,96vw);height:min(790px,84vh);top:52%;transform:translate(-50%,-50%);perspective:1500px}
+.cartoon-room-mode .wall{bottom:22%}
+.cartoon-room-mode .desk{bottom:4%;height:40%}
+.cartoon-room-mode .desk-leg{bottom:-8%;height:14%}
+@media (min-width:1440px){
+  .cartoon-room-mode{width:1440px;height:790px}
+}
+@media (max-height:700px){
+  html,body{overflow:hidden}
+  .studio{height:100vh}
+  .cartoon-room-mode{height:650px;top:53%}
+}

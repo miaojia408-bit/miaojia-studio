@@ -1,0 +1,44 @@
+/* Frontal illustration: level wall frames and a shared, shallow desk plane. */
+.cartoon-room-mode .layer{transform:none!important}
+.cartoon-room-mode .desk{left:2%;right:2%;bottom:4%;height:31%;transform:none;border-radius:2px;box-shadow:0 24px 0 #7e98a5,0 38px 22px #472f2626}
+.cartoon-room-mode .desk:before{height:22px;bottom:-22px}
+.cartoon-room-mode .desk:after{transform:none}
+.cartoon-room-mode .desk-leg{bottom:-8%;height:12%}
+.cartoon-room-mode .shelf,.cartoon-room-mode .layer-near,.cartoon-room-mode .headphones{display:none}
+.cartoon-room-mode .poster-wall,.cartoon-room-mode .layer-birthday .poster-wall,.cartoon-room-mode .layer-pig .poster-wall{left:6%;top:5%;width:51%;height:44%;transform:none}
+.cartoon-room-mode .poster{padding:3px;background:#fff7de;border:4px solid #806b55;border-radius:1px;box-shadow:inset 0 0 0 1px #c3ad86,2px 3px 0 #554334,-4px 7px 4px #472f2620;transform:none!important}
+.cartoon-room-mode .poster img{display:block;width:100%;height:auto;object-fit:contain;background:#fff7de}
+.cartoon-room-mode .poster:before,.cartoon-room-mode .poster:after,.cartoon-room-mode .tape{display:none}
+.cartoon-room-mode .p-seagull{left:0;top:0;width:24%;height:auto}
+.cartoon-room-mode .p-farewell{left:28%;top:0;width:24%;height:auto}
+.cartoon-room-mode .layer-birthday .p-birthday{left:56%;right:auto;top:0;width:34%;height:auto}
+.cartoon-room-mode .p-pig{left:56%;right:auto;top:45%;width:34%;height:auto}
+.cartoon-room-mode .wall-id{left:60%;top:5%;width:15%;padding:14px 8px;transform:none}
+.cartoon-room-mode .wall-id:hover{transform:translateY(-2px)}
+.cartoon-room-mode .window{right:5%;top:8%;width:18%;height:43%}
+.cartoon-room-mode .pull{right:1%;top:12%}
+.cartoon-room-mode .laptop{left:37%;bottom:19%;width:28%;transform:none;filter:drop-shadow(-5px 8px 3px #472f2628)}
+.cartoon-room-mode .laptop:hover{transform:translateY(-2px)}
+.cartoon-room-mode .laptop .keyboard{height:37px;transform:none;clip-path:polygon(3% 0,97% 0,100% 100%,0 100%);border-radius:0 0 4px 4px}
+.cartoon-room-mode .lamp{left:7%;bottom:27%;transform:scale(.75);transform-origin:bottom}
+.cartoon-room-mode .flowers{left:24%;bottom:27%;transform:scale(.85);transform-origin:bottom}
+.cartoon-room-mode .paper.report{left:17%;bottom:7%;width:15%;height:auto;aspect-ratio:210/297;transform:scaleY(.72);transform-origin:center bottom;padding:16px 14px;border-radius:1px;box-shadow:2px 2px 0 #fff9e9,4px 4px 0 #d2c8b2,-4px 7px 4px #472f2620}
+.cartoon-room-mode .paper.report:hover{transform:scaleY(.72) translateY(-3px)!important}
+.cartoon-room-mode .scraps.one{left:17.4%;bottom:7.5%;width:15%;height:auto;aspect-ratio:210/297;transform:scaleY(.72);transform-origin:center bottom;font-size:9px}
+.paper.report strong{font-size:clamp(9px,1vw,14px);line-height:1.8;margin:14px 0}
+.paper.report .manuscript-intro{font-size:8px;line-height:2.2}.paper.report .manuscript-lines{height:50px;background:repeating-linear-gradient(transparent 0 8px,#a9aea344 8px 9px)}
+.cartoon-room-mode .layer-wandian-note .note{right:39%;bottom:5%;width:19%;transform:none;border-radius:9px}
+.cartoon-room-mode .layer-wandian-note .note:hover{transform:translateY(-2px)}
+.cartoon-room-mode .desk-cover-box{right:8%;bottom:12%;width:22%;height:29%;transform:none}
+.desk-box-lid{left:6%;right:5%;top:2%;height:62%;transform:none;border-radius:5px 5px 0 0;border-width:3px;background:#d6e4e8;box-shadow:inset 0 0 0 5px #eaf0e8,0 3px 0 #829ba6}
+.desk-box-interior{left:0;right:0;bottom:15%;height:52%;transform:none;background:linear-gradient(#536d79,#829ba7);border:3px solid #665047;border-radius:3px;box-shadow:inset 0 9px 0 #472f2626}
+.desk-box-cards{inset:8% 6% 16% 3%;overflow:hidden}
+.desk-cover-slip{left:calc(5% + var(--slip)*4%);width:70%;bottom:7%;transform:translateY(calc(var(--slip)*-3px)) rotate(calc(-3deg + var(--slip)*1deg))}
+.desk-box-front{left:0;right:0;bottom:0;height:43%;border:3px solid #665047;border-radius:2px 2px 6px 6px;padding:7% 9%;box-shadow:inset 0 5px 0 #edf3e9,inset 4px 0 0 #dce8eb,inset -4px 0 0 #9ab4c0,0 6px 0 #819ba8}
+.desk-box-side{right:-5px;bottom:4px;width:6px;height:42%;transform:none;background:#819ba8;border:0;border-radius:0 0 3px 0}
+.desk-stationery{position:absolute;left:32%;bottom:27%;width:37px;height:55px;z-index:10;filter:drop-shadow(-3px 4px 2px #472f2626)}
+.desk-stationery span{position:absolute;inset:12px 0 0;border:1.5px solid #665047;border-radius:3px 3px 7px 7px;background:linear-gradient(90deg,#bbd3e0,#d9e7ea);box-shadow:inset 3px 0 0 #eef4e3}
+.desk-stationery i{position:absolute;bottom:20px;left:8px;width:5px;height:59px;background:#d4b477;border:1px solid #665047;transform:rotate(-9deg)}
+.desk-stationery i:nth-child(2){left:18px;height:53px;transform:rotate(8deg);background:#bbd3e0}.desk-stationery i:nth-child(3){left:26px;height:49px;transform:rotate(15deg);background:#9eaf9c}
+.desk-mug{position:absolute;left:66%;bottom:23%;width:38px;height:40px;border:2px solid #665047;border-radius:4px 4px 13px 13px;background:#fef0b6;z-index:10;box-shadow:inset 5px 0 0 #fff9dd,-3px 5px 2px #472f2620}
+.desk-mug:before{content:"";position:absolute;right:-14px;top:5px;width:13px;height:22px;border:3px solid #665047;border-left:0;border-radius:0 12px 12px 0}.desk-mug:after{content:"";position:absolute;left:2px;right:2px;top:-3px;height:7px;border:1px solid #665047;border-radius:50%;background:#9d8161}

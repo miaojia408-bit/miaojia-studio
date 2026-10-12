@@ -1,0 +1,26 @@
+/* Quiet motion, preserving the existing composition and original artwork. */
+.cartoon-room-mode .wall:after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(151deg,transparent 0 27px,#fff4ca99 28px 42px,transparent 43px 57px);mask-image:linear-gradient(90deg,transparent 42%,#000 95%);opacity:var(--sun-strength,.3);transition:opacity .7s ease}
+.cartoon-room-mode .desk:after{background:repeating-linear-gradient(151deg,transparent 0 29px,#fff6ce88 30px 46px,transparent 47px 61px);opacity:var(--sun-strength,.3);transition:opacity .7s ease}
+.cartoon-room-mode .window-light{opacity:var(--sun-strength,.3);transition:opacity .7s ease}
+.night .cartoon-room-mode .wall:after,.night .cartoon-room-mode .desk:after,.night .cartoon-room-mode .window-light{opacity:.025}
+.cartoon-room-mode .tree{transform-origin:50% 100%;animation:studio-breeze 9s ease-in-out infinite alternate}
+.cartoon-room-mode .tree-b{animation-duration:12s;animation-delay:-5s}
+@keyframes studio-breeze{from{rotate:-1.2deg;translate:-1px 0}to{rotate:1.2deg;translate:2px 0}}
+.cartoon-room-mode .tulip{animation:petal-breathe 8s ease-in-out infinite;transform-origin:50% 100%}
+.cartoon-room-mode .t2{animation-delay:-4s}
+@keyframes petal-breathe{0%,70%,100%{rotate:0deg}85%{rotate:2deg}}
+.lamp-switch{position:absolute;inset:0;z-index:4;border:0;background:transparent;cursor:pointer;border-radius:25px}
+.lamp-switch:focus-visible{outline:2px dashed #6c8587;outline-offset:5px}
+.cartoon-room-mode .glow{top:52px;left:-20px;width:180px;height:170px;background:radial-gradient(ellipse,#ffe5a078,transparent 70%);opacity:0;transition:opacity .6s ease;pointer-events:none}
+.lamp-on .cartoon-room-mode .glow{opacity:1}
+.cartoon-room-mode .shade{transition:background .6s ease,box-shadow .6s ease}
+.lamp-on .cartoon-room-mode .shade{background:#ffe1a0;box-shadow:0 8px 15px #ffd98e55}
+.cartoon-room-mode .lamp:after{content:"";position:absolute;bottom:-15px;left:-35px;width:210px;height:65px;border-radius:50%;background:radial-gradient(ellipse,#ffe5a8a6,transparent 70%);opacity:0;transition:opacity .6s ease;pointer-events:none}
+.lamp-on .cartoon-room-mode .lamp:after{opacity:1}
+.cartoon-room-mode .poster{transition:box-shadow .3s ease,translate .3s ease}
+.cartoon-room-mode .poster:hover,.cartoon-room-mode .poster:focus-visible{translate:0 -3px;box-shadow:3px 7px 7px #483b3540}
+.cartoon-room-mode .poster:focus-visible{outline:2px dashed #6c8587;outline-offset:4px}
+.cartoon-room-mode .screen,.cartoon-room-mode .note img{transition:filter .35s ease,box-shadow .35s ease}
+.cartoon-room-mode .laptop:hover .screen,.cartoon-room-mode .laptop:focus-visible .screen{filter:brightness(1.035);box-shadow:0 0 16px #fff8db44}
+.cartoon-room-mode .note:hover img,.cartoon-room-mode .note:focus-visible img{filter:brightness(1.035)}
+@media(prefers-reduced-motion:reduce){.cartoon-room-mode *,.cartoon-room-mode *:before,.cartoon-room-mode *:after{animation:none!important;transition:none!important}.cartoon-room-mode .layer{transform:none!important}.cartoon-room-mode .poster:hover,.cartoon-room-mode .poster:focus-visible{translate:none}}

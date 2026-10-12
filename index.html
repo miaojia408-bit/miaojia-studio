@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MIAOJIA'S STUDIO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=31">
+<link rel="stylesheet" href="space.css?v=36">
+<link rel="stylesheet" href="atmosphere.css?v=37">
+<link rel="stylesheet" href="palette.css?v=38">
+<link rel="stylesheet" href="depth.css?v=39">
+<link rel="stylesheet" href="materials.css?v=40">
+<link rel="stylesheet" href="desktop-home.css?v=44">
+</head>
+<body>
+<main class="studio" id="studio">
+<header>
+<a class="logo" href="#">MIAOJIA'S <i>STUDIO</i>
+</a>
+<span class="eyebrow">a desk for making, seeing & thinking</span>
+<nav class="site-nav" aria-label="网站导航">
+<button id="about-link">ABOUT</button>
+<button id="desk-link">DESK</button>
+<button id="covers-link">封面卡片盒</button>
+</nav>
+<button id="light-switch" aria-label="切换昼夜">☼ / ☾</button>
+</header>
+<section class="room cartoon-room-mode">
+<div class="layer layer-background">
+<div class="floor-plane">
+</div>
+<div class="side-plane">
+</div>
+<div class="wall">
+</div>
+<div class="window">
+<div class="sky">
+<span class="sun">
+</span>
+<span class="tree tree-a">
+</span>
+<span class="tree tree-b">
+</span>
+</div>
+<div class="blinds" id="blinds" aria-hidden="true">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+<div class="window-light">
+</div>
+</div>
+<div class="layer layer-art">
+<button id="id-entry" class="studio-id wall-id" aria-label="查看缪佳的个人 ID 卡"><img src="assets/miaojia-portrait.jpg" alt="缪佳"><span><b>缪佳 <i>MIAOJIA</i></b><small>中央戏剧学院<br>电影电视系 · 影视制片专业</small></span></button>
+<div class="poster-wall">
+<button class="poster p-seagull has-image" data-title="海鸥" aria-label="播放短片《海鸥》">
+<img src="assets/seagull.jpg" alt="短片《海鸥》原始海报">
+</button>
+<div class="tape">
+</div>
+<button class="poster p-farewell has-image" data-title="再见，永别" aria-label="播放短片《再见，永别》">
+<img src="assets/farewell.jpg" alt="短片《再见，永别》原始海报">
+</button>
+</div>
+</div>
+<div class="layer layer-work">
+<div class="shelf">
+<div class="book b1">
+</div>
+<div class="book b2">
+</div>
+<div class="book b3">
+</div>
+<button class="tile-cat">
+<i>
+</i>
+<b>瓦猫</b>
+</button>
+</div>
+<div class="desk">
+</div>
+<div class="desk-leg leg-left">
+</div>
+<div class="desk-leg leg-right">
+</div>
+<div class="lamp">
+<button class="lamp-switch" aria-label="打开台灯" aria-pressed="false"></button>
+<div class="shade">
+</div>
+<div class="arm">
+</div>
+<div class="base">
+</div>
+<div class="glow">
+</div>
+</div>
+<div class="flowers">
+<div class="glass">
+</div>
+<i class="stem s1">
+</i>
+<i class="stem s2">
+</i>
+<b class="tulip t1">
+</b>
+<b class="tulip t2">
+</b>
+</div>
+<button class="laptop" id="laptop" aria-label="翻阅《思凡》剧本策划">
+<div class="screen screen-project-cover">
+<img src="assets/documents/sifan-pages/page-42.jpg" alt="《思凡》剧本策划最后一页">
+</div>
+<div class="keyboard">
+</div>
+</button>
+<div class="headphones">
+<span class="band">
+</span>
+<span class="cup left">
+</span>
+<span class="cup right">
+</span>
+<i>
+</i>
+</div>
+</div>
+<div class="layer layer-cover-object">
+<button class="desk-cover-box" id="covers-entry" aria-label="打开桌上的封面卡片盒" aria-haspopup="dialog">
+<span class="desk-box-lid" aria-hidden="true">MIAOJIA'S<br>COLLECTION</span>
+<span class="desk-box-interior" aria-hidden="true"></span>
+<span class="desk-box-cards" aria-hidden="true"></span>
+<span class="desk-box-side" aria-hidden="true"></span>
+<span class="desk-box-front"><span>封面收藏</span><small>6 CARDS</small></span>
+</button>
+</div>
+<div class="layer layer-birthday">
+<div class="poster-wall">
+<button class="poster p-birthday has-image" data-title="四十五个生日" aria-label="播放短片《四十五个生日》">
+<img src="assets/forty-five-birthdays.png" alt="短片《四十五个生日》原始横版海报">
+</button>
+</div>
+</div>
+<div class="layer layer-pig">
+<div class="poster-wall">
+<button class="poster p-pig has-image front" data-title="餐桌上的猪" aria-label="播放短片《餐桌上的猪》">
+<img src="assets/pig-on-dining-table.png" alt="短片《餐桌上的猪》原始横版海报">
+</button>
+</div>
+</div>
+<div class="layer layer-foreground">
+<button class="pull" id="pull" aria-label="向下拉动窗绳，逐档调整百叶窗角度">
+<span>
+</span>○</button>
+<button class="paper report" data-paper="报道稿" aria-label="打开报道与记录，两篇作品">
+<em>极昼工作室 · 2026.04.14</em>
+<strong>3分钟扇10个巴掌，<br>科班编剧修炼「不讲逻辑」</strong>
+<span class="manuscript-byline">文 / 罗晓兰、缪佳</span>
+<span class="manuscript-intro">平台保底分账，一部短剧赚千万，消息吸引大量编剧入场。其中不少人科班出生，有人曾创作独立电影和爆款长剧。</span>
+<span class="manuscript-lines" aria-hidden="true"></span>
+</button>
+<div class="paper scraps one" aria-hidden="true">封闭的海岛高中，<br>蒸发了他们半生积蓄<span>文 / 魏荣欢、缪佳</span></div>
+</div>
+<div class="layer layer-wandian-note">
+<button class="paper note" data-paper="玩点" aria-label="翻阅玩点商业计划书">
+<img src="assets/documents/wandian-pages/page-24.jpg" alt="玩点商业计划书最后一页">
+</button>
+</div>
+<div class="layer layer-near" aria-hidden="true">
+<div class="near-plant">
+<i class="leaf l1"></i>
+<i class="leaf l2"></i>
+<i class="leaf l3"></i>
+<i class="leaf l4"></i>
+<i class="leaf l5"></i>
+</div>
+<div class="near-books">
+<span></span>
+<span></span>
+</div>
+<div class="near-photo"></div>
+</div>
+<div class="depth-vignette" aria-hidden="true">
+</div>
+</section>
+<footer>
+<span>hover around, things respond.</span>
+<span>V0 / 2026</span>
+</footer>
+</main>
+<dialog id="dialog">
+<button class="close">×</button>
+<div class="dialog-body">
+</div>
+</dialog>
+<script src="reports.js?v=31"></script>
+<script src="script.js?v=43">
+</script>
+</body>
+</html>
